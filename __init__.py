@@ -1,12 +1,16 @@
 """
-memory/__init__.py
-Memory systems for SVGelona
+personality/__init__.py
+Personality systems for SVGelona
 """
 
-from .context_memory import ContextMemory
-from .long_term_memory import LongTermMemory
+from .personality_core import PersonalityCore
+from .emotional_memory import EmotionalMemory
+from .response_styler import ResponseStyler
+from .personality_engine import PersonalityEngine
 
 __all__ = [
-    'ContextMemory',
-    'LongTermMemory'
+    'PersonalityCore',
+    'EmotionalMemory',
+    'ResponseStyler',
+    'PersonalityEngine'
 ]
