@@ -1,12 +1,14 @@
 """
-intent/__init__.py
-Intent detection and classification for SVGelona
+knowledge/__init__.py
+Knowledge systems for SVGelona
 """
 
-from .intent_detector import IntentDetector
-from .intent_classifier import IntentClassifier
+from .embeddings import SemanticEmbeddings
+from .knowledge_base import KnowledgeBase
+from .rag_system import RAGSystem
 
 __all__ = [
-    'IntentDetector',
-    'IntentClassifier'
+    'SemanticEmbeddings',
+    'KnowledgeBase',
+    'RAGSystem'
 ]
