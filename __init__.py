@@ -1,16 +1,10 @@
 """
-personality/__init__.py
-Personality systems for SVGelona
+topic/__init__.py
+Topic management for SVGelona
 """
 
-from .personality_core import PersonalityCore
-from .emotional_memory import EmotionalMemory
-from .response_styler import ResponseStyler
-from .personality_engine import PersonalityEngine
+from .topic_manager import TopicManager
 
 __all__ = [
-    'PersonalityCore',
-    'EmotionalMemory',
-    'ResponseStyler',
-    'PersonalityEngine'
+    'TopicManager'
 ]
