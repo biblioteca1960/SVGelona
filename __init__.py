@@ -1,14 +1,12 @@
 """
-knowledge/__init__.py
-Knowledge systems for SVGelona
+memory/__init__.py
+Memory systems for SVGelona
 """
 
-from .embeddings import SemanticEmbeddings
-from .knowledge_base import KnowledgeBase
-from .rag_system import RAGSystem
+from .context_memory import ContextMemory
+from .long_term_memory import LongTermMemory
 
 __all__ = [
-    'SemanticEmbeddings',
-    'KnowledgeBase',
-    'RAGSystem'
+    'ContextMemory',
+    'LongTermMemory'
 ]
